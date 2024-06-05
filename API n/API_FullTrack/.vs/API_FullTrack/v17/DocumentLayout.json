@@ -1,45 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\",
+  "WorkspaceRootPath": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\documents\\github\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\api_fulltrack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\api_fulltrack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/API_FullTrackDB3/True/SqlTable/dbo.Pedido.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604001205_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API_FullTrack\\Migrations\\20240604001205_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\documents\\github\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\model\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\model\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\model\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\documents\\github\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\dto\\pedidorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\dto\\pedidorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\dto\\pedidorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\documents\\github\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API_FullTrack\\Migrations\\20240604000936_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API_FullTrack\\Migrations\\20240604000914_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API_FullTrack\\Migrations\\20240604000556_migr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\documents\\github\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|c:\\users\\aula\\source\\repos\\projeto-fulltrack\\api n\\api_fulltrack\\api_fulltrack\\migrations\\20240604001205_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EC2B793-11C8-4B15-890F-760B3F882047}|API_FullTrack\\API_FullTrack.csproj|solutionrelative:api_fulltrack\\migrations\\20240604001205_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,63 +54,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Program.cs",
+              "RelativeDocumentMoniker": "API_FullTrack\\Program.cs",
+              "ToolTip": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Program.cs",
+              "RelativeToolTip": "API_FullTrack\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:49:27.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20240604001205_mig3.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604001205_mig3.cs",
-              "RelativeDocumentMoniker": "API_FullTrack\\Migrations\\20240604001205_mig3.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604001205_mig3.cs",
-              "RelativeToolTip": "API_FullTrack\\Migrations\\20240604001205_mig3.cs",
+              "Title": "API_FullTrack",
+              "DocumentMoniker": "C:\\Users\\Aula\\Source\\Repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\API_FullTrack.csproj",
+              "RelativeDocumentMoniker": "API_FullTrack\\API_FullTrack.csproj",
+              "ToolTip": "C:\\Users\\Aula\\Source\\Repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\API_FullTrack.csproj",
+              "RelativeToolTip": "API_FullTrack\\API_FullTrack.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T00:12:05.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240604000936_mig2.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs",
-              "RelativeDocumentMoniker": "API_FullTrack\\Migrations\\20240604000936_mig2.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs",
-              "RelativeToolTip": "API_FullTrack\\Migrations\\20240604000936_mig2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T00:09:36.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240604000914_mig2.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs",
-              "RelativeDocumentMoniker": "API_FullTrack\\Migrations\\20240604000914_mig2.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs",
-              "RelativeToolTip": "API_FullTrack\\Migrations\\20240604000914_mig2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T00:09:14.433Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T23:37:42.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20240604000556_migr.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs",
-              "RelativeDocumentMoniker": "API_FullTrack\\Migrations\\20240604000556_migr.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs",
-              "RelativeToolTip": "API_FullTrack\\Migrations\\20240604000556_migr.cs",
+              "Title": "20240604000914_mig2.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs",
+              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000914_mig2.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T00:05:56.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T00:09:14.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "20240604000556_migr.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs",
+              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000556_migr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T00:05:56.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "dbo.Pedido [Dados]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/API_FullTrackDB3/True/SqlTable/dbo.Pedido.sql",
               "ToolTip": "dbo.Pedido [Dados]",
@@ -115,50 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Model\\Pedido.cs",
-              "RelativeDocumentMoniker": "API_FullTrack\\Model\\Pedido.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Model\\Pedido.cs",
-              "RelativeToolTip": "API_FullTrack\\Model\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T23:36:41.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PedidoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\DTO\\PedidoRequest.cs",
-              "RelativeDocumentMoniker": "API_FullTrack\\DTO\\PedidoRequest.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\DTO\\PedidoRequest.cs",
-              "RelativeToolTip": "API_FullTrack\\DTO\\PedidoRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T23:35:34.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "API_FullTrack\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "API_FullTrack\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwFUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T23:35:12.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Context\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Context\\DataContext.cs",
               "RelativeDocumentMoniker": "API_FullTrack\\Context\\DataContext.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Context\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Context\\DataContext.cs",
               "RelativeToolTip": "API_FullTrack\\Context\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -167,16 +131,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PedidoController.cs",
-              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\PedidoController.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "API_FullTrack\\Controllers\\PedidoController.cs",
-              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\PedidoController.cs",
               "RelativeToolTip": "API_FullTrack\\Controllers\\PedidoController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAWwCsAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T23:34:43.477Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240604000936_mig2.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs",
+              "ToolTip": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604000936_mig2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T00:09:36.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240604001205_mig3.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604001205_mig3.cs",
+              "RelativeDocumentMoniker": "API_FullTrack\\Migrations\\20240604001205_mig3.cs",
+              "ToolTip": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Migrations\\20240604001205_mig3.cs",
+              "RelativeToolTip": "API_FullTrack\\Migrations\\20240604001205_mig3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T00:12:05.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Model\\Pedido.cs",
+              "RelativeDocumentMoniker": "API_FullTrack\\Model\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Model\\Pedido.cs",
+              "RelativeToolTip": "API_FullTrack\\Model\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:36:41.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PedidoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\DTO\\PedidoRequest.cs",
+              "RelativeDocumentMoniker": "API_FullTrack\\DTO\\PedidoRequest.cs",
+              "ToolTip": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\DTO\\PedidoRequest.cs",
+              "RelativeToolTip": "API_FullTrack\\DTO\\PedidoRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:35:34.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "API_FullTrack\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Aula\\source\\repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "API_FullTrack\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:35:12.167Z"
             }
           ]
         }

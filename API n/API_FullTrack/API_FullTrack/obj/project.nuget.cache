@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ye5Bli0ElIKxLEUpm+laFd2BnbzgAZqmuGNIw0EV1jwJJDOwfHQiuAKLWtkAd9lUhJt5SdRkKAc1jbP2aHP4zg==",
+  "dgSpecHash": "tD9MC1atzhtIYfD2ASzNnoFBlja2P2B+5jsvPZoOe3dnAVW78f8V6CUutsZ9pff/8NhP5bcRBKzd1tbnmiwCZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aula\\Documents\\GitHub\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\API_FullTrack.csproj",
+  "projectFilePath": "C:\\Users\\Aula\\Source\\Repos\\projeto-fulltrack\\API n\\API_FullTrack\\API_FullTrack\\API_FullTrack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aula\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Aula\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
