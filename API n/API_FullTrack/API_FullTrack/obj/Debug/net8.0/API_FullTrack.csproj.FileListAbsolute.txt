@@ -266,9 +266,9 @@ C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\o
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_FullTrack.props
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\scopedcss\bundle\API_FullTrack.styles.css
-C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\API_Full.67304DC4.Up2Date
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\API_FullTrack.dll
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\refint\API_FullTrack.dll
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\API_FullTrack.pdb
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\API_FullTrack.genruntimeconfig.cache
 C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\ref\API_FullTrack.dll
+C:\Users\Aula\Source\Repos\projeto-fulltrack\API n\API_FullTrack\API_FullTrack\obj\Debug\net8.0\API_FullTrack.csproj.CopyComplete

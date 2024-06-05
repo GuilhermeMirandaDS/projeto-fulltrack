@@ -1,6 +1,7 @@
 ﻿using API_FullTrack.Context;
 using API_FullTrack.DTO;
 using API_FullTrack.Model;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace API_FullTrack.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class UsuarioController : ControllerBase
     {
         private readonly DataContext _dataContext;

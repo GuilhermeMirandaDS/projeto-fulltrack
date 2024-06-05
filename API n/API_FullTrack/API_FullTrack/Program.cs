@@ -18,15 +18,15 @@ namespace API_FullTrack
             builder.Services.AddScoped<DataContext>();
 
 
-            builder.Services.AddCors(options =>
-            {
-                options.AddDefaultPolicy(
-                    policy =>
-                    {
-                        policy.WithOrigins("http://localhost:5173/",
-                                            "https://localhost:7202/api");
-                    });
-            });
+            //builder.Services.AddCors(options =>
+            //{
+            //    options.AddDefaultPolicy(
+            //        policy =>
+            //        {
+            //            policy.WithOrigins("http://localhost:5173/",
+            //                                "https://localhost:7202/api");
+            //        });
+            //});
 
 
 
@@ -47,7 +47,8 @@ namespace API_FullTrack
             app.UseHttpsRedirection();
             app.UseRouting();
 
-            app.UseCors();
+            //app.UseCors();
+            app.UseCors(option => option.AllowAnyOrigin()); 
             app.UseStaticFiles();
 
             app.UseAuthorization();

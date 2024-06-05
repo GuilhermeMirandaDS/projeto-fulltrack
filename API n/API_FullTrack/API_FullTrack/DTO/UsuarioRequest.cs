@@ -8,8 +8,6 @@ namespace API_FullTrack.DTO
     {
         public int Id { get; set; }
 
-        public string Email { get; set; }
-        public string Senha { get; set; }
         public string Nome { get; set; }
 
         public int Meta { get; set; }
@@ -18,6 +16,6 @@ namespace API_FullTrack.DTO
         public int Multas { get; set; }
 
         public Usuario toModel()
-            => new Usuario(Email, Senha, Nome, Meta, Entregas, Multas);
+            => new Usuario(Nome, Meta, Entregas, Multas);
     }
 }
