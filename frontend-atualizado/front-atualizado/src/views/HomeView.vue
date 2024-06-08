@@ -17,17 +17,6 @@
           
           <router-link class="nav-link" to="/about" style="color: gray;">Histórico de Pedidos</router-link>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Histórico de Pedidos
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li> -->
       </ul>
       <router-link type="button" class="btn btn-outline-light" to="/cadastro">Adicionar Novo Pedido</router-link>
       <div style="display: flex; padding: 10px;align-items: center; justify-content: space-between; flex-direction: row;">
@@ -37,59 +26,66 @@
     </div>
   </div>
   </nav>
+
+  
   <h1 style="margin-left:56px; margin-top: 24px; margin-bottom: -24px; font-weight: 900; color: white; font-size: 2em;">Bem vindo(a), <a style="font-size: 1em; color: rgb(240, 36, 36)">Gabriela!</a></h1>
   <p style="margin-left:56px; margin-top: 28px; margin-bottom: -24px; font-weight: 500; color: gray ">Confira as novidades da sua conta!</p>
+
   <div class="row" style="padding: 50px;">
-  <div class="col-sm-3 mb-3 mb-sm-0">
-    <div class="card" style="border-radius: 24px; border: none;">
-      <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
-        <h5 class="card-title" style="color: grey; font-size: 16px; color: white">Meta de entregas</h5>
-        <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin-top: 20px;">
-          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 250px;">
-        <div class="progress-bar" style="width: 55%; background-color: rgb(200, 36, 36); color: white; font-weight: 600;" >55%</div>
-      </div>
-          <img src="/src/icons/monitoring_24dp_FILL0_wght300_GRAD0_opsz24.png" style="width: 32px; background-color: rgb(255, 36, 36, 0.130); border-radius: 4px;border: solid   rgb(255, 36, 36, 0.00); ">
+  <div v-for="(user, index) in usuario" :key="index">
+    <div class="col-sm-3 mb-3 mb-sm-0">
+      <div class="card" style="border-radius: 24px; border: none;">
+        <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
+          <h5 class="card-title" style="color: grey; font-size: 16px; color: white">Meta de entregas</h5>
+          <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin-top: 20px;">
+            <p class="card-text" style="color:  rgb(240, 36, 36); font-size: 28px; font-weight: bold;">{{ user.Meta }}</p>
+            <img src="/src/icons/monitoring_24dp_FILL0_wght300_GRAD0_opsz24.png" style="width: 32px; background-color: rgb(255, 36, 36, 0.130); border-radius: 4px;border: solid   rgb(255, 36, 36, 0.00); ">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card" style="border-radius: 24px; border: none;">
-      <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
-        <h5 class="card-title" style="color: white; font-size: 16px;">Entregas realizadas</h5>
-        <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-          <p class="card-text" style="color:  rgb(240, 36, 36); font-size: 28px; font-weight: bold;">240</p>
-          <img src="/src/icons/inventory_2_24dp_FILL0_wght300_GRAD0_opsz24.png" style="width: 32px; background-color: rgb(255, 36, 36, 0.130); border-radius: 4px; border: solid   rgb(255, 36, 36, 0.00); ">
+
+
+    <div class="col-sm-3">
+      <div class="card" style="border-radius: 24px; border: none;">
+        <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
+          <h5 class="card-title" style="color: white; font-size: 16px;">Entregas realizadas</h5>
+          <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+            <p class="card-text" style="color:  rgb(240, 36, 36); font-size: 28px; font-weight: bold;">{{ user.Entregas }}</p>
+            <img src="/src/icons/inventory_2_24dp_FILL0_wght300_GRAD0_opsz24.png" style="width: 32px; background-color: rgb(255, 36, 36, 0.130); border-radius: 4px; border: solid   rgb(255, 36, 36, 0.00); ">
+          </div>
+        
         </div>
-       
       </div>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card" style="border-radius: 24px; border: none;">
-      <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
-        <h5 class="card-title" style="color: white; font-size: 16px;">Avaliações</h5>
-        <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-          <p class="card-text" style="color:  rgb(240, 36, 36); font-size: 28px; font-weight: bold;">546</p>
-          <img src="/src/icons/verified_24dp_FILL0_wght300_GRAD0_opsz24.png" style="width: 32px;  background-color: rgb(255, 36, 36, 0.130); border-radius: 4px; border: solid   rgb(255, 36, 36, 0.00); ">
+    <div class="col-sm-3">
+      <div class="card" style="border-radius: 24px; border: none;">
+        <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
+          <h5 class="card-title" style="color: white; font-size: 16px;">Avaliações</h5>
+          <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+            <p class="card-text" style="color:  rgb(240, 36, 36); font-size: 28px; font-weight: bold;">546</p>
+            <img src="/src/icons/verified_24dp_FILL0_wght300_GRAD0_opsz24.png" style="width: 32px;  background-color: rgb(255, 36, 36, 0.130); border-radius: 4px; border: solid   rgb(255, 36, 36, 0.00); ">
+          </div>
+        
         </div>
-       
       </div>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card" style="border-radius: 24px; border: none;">
-      <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
-        <h5 class="card-title" style="color: white; font-size: 16px;">Multas recebidas</h5>
-        <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-          <p class="card-text" style="color:  rgb(240, 36, 36); font-size: 28px; font-weight: bold;">0</p>
-          <img src="/src/icons/thumb_down_24dp_FILL0_wght300_GRAD0_opsz24 (1).png" style="width: 32px;  background-color: rgb(255, 36, 36, 0.130); border-radius: 4px; border: solid   rgb(255, 36, 36, 0.00); ">
+    <div class="col-sm-3">
+      <div class="card" style="border-radius: 24px; border: none;">
+        <div class="card-body" style="height: 100px; border: none; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137); background-color: rgba(37,37,37); border-radius: 8px; color: white;">
+          <h5 class="card-title" style="color: white; font-size: 16px;">Multas recebidas</h5>
+          <div class="icones" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+            <p class="card-text" style="color:  rgb(240, 36, 36); font-size: 28px; font-weight: bold;">{{ user.Multas }}</p>
+            <img src="/src/icons/thumb_down_24dp_FILL0_wght300_GRAD0_opsz24 (1).png" style="width: 32px;  background-color: rgb(255, 36, 36, 0.130); border-radius: 4px; border: solid   rgb(255, 36, 36, 0.00); ">
+          </div>
+        
         </div>
-       
       </div>
     </div>
+    </div>
   </div>
-  </div>
+
+    
   <h1 style="text-align: left;  font-weight: 900;  margin-left: 50px; color: white">
     Seus Dados
   </h1>
@@ -188,74 +184,7 @@
         <td>{{ pedido.horario }}</td>
         <td>{{ pedido.data }}</td>
       </tr>
-     <tr style="background-color: rgba(30,30,30);">
-        <th scope="row">1</th>
-        <td>Mesa de madeira</td>
-        <td>Rua Cachorro Feliz, 450</td>
-        <td>15h00</td>
-        <td>22/04/2024</td>
-              </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Mudança Gigante</td>
-        <td>Rua Nova Marília, 387</td>
-        <td>11h00</td>
-        <td>05/06/2024</td>
 
-
-      </tr> 
-
-
-      <!-- COMPONENTE CONECTADO A API -->
-
-      
-
-
-      <!-- <tr>
-        <th scope="row">3</th>
-        <td>Espelho Grande</td>
-        <td>Rodovia Presidente Prudente, 50</td>
-        <td>13h40</td>
-        <td>14/12/2024</td>
-        <td><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border: none; border-radius: 8px; width: 160px; background-color: rgba(15,15,15); color:white; font-weight: 500; height: 32px;">Confirmar Entrega</button></td>
-
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>Mesa de Madeira Grande</td>
-        <td>Bairro Marcia Guimarães, 150</td>
-        <td>11h40</td>
-        <td>15/12/2024</td>
-        <td><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border: none; border-radius: 8px; width: 160px; background-color: rgba(15,15,15); color:white; font-weight: 500; height: 32px;">Confirmar Entrega</button></td>
-
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td>Computador Gamer</td>
-        <td>Rua Professor Unimar, 560</td>
-        <td>20h40</td>
-        <td>18/12/2024</td>
-        <td><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border: none; border-radius: 8px; width: 160px; background-color: rgba(15,15,15); color:white; font-weight: 500; height: 32px;">Confirmar Entrega</button></td>
-
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td>Espelho Grande</td>
-        <td>Avenida Presidente Prudente, 50</td>
-        <td>13h40</td>
-        <td>14/12/2024</td>
-        <td><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border: none; border-radius: 8px; width: 160px; background-color: rgba(15,15,15); color:white; font-weight: 500; height: 32px;">Confirmar Entrega</button></td>
-
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td>Espelho Grande</td>
-        <td>Rua Presidente Prudente, 50</td>
-        <td>13h40</td>
-        <td>14/12/2024</td>
-        <td><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="border: none; border-radius: 8px; width: 160px; background-color: rgba(15,15,15); color:white; font-weight: 500; height: 32px;">Confirmar Entrega</button></td> -->
-        
-        <!-- </tr> -->
       </tbody>
     </table>
   </div>
@@ -290,20 +219,6 @@
 </style>
 
 <script>
-// import {onMounted, reactive, ref} from 'vue';
-// import Tabela from '../components/Tabela.vue';
-
-// let tab = reactive(ref())
-
-// onMounted(()=> {
-//   fetch("")
-//   .then(response => response.json())
-//   .then(response => {
-//     tab.value = response.results
-//     console.log(tab)
-//   });
-// })
-
 import PedidoDataService from "../services/PedidoDataService";
 
 
@@ -326,9 +241,29 @@ export default {
       });
     }
   },
+
+  name: "funcionario",
+  data() {
+    return{
+      usuario: []
+    };
+  },
+  methods: {
+    retriveUsuario() {
+      UsuarioDataService.getAll()
+      .then(response => {
+        this.usuario = response.data;
+        console.log(this.usuario);
+      })
+      .catch(e => {
+        console.log(e)
+      });
+    }
+  },
   mounted() {
     this.retrivePedido();
-  },
+    this.retriveUsuario();
+  }
 }
 
 
