@@ -1,0 +1,58 @@
+body{
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.navbar navbar-expand-lg bg-body{
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(37,37,37);
+    border: rgba(37,37,37); 
+    color: white
+  }
+.nav-bar{
+    display: flex; 
+    padding: 10px;
+    align-items: center; 
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logo{
+    width: 90px; 
+    margin: 16px;
+}
+.form-control{
+    background-color: white;
+    }
+.btn{
+    background-color:rgb(240, 36, 36); 
+    border: none; 
+    font-weight: 600; 
+    width: 100%;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(170, 26, 26);
+    color: white;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 500px;
+}
+.titulo{
+    padding: 24px; 
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.nome{
+    color: rgb(240, 36, 36); 
+    font-size: 40px;
+    text-decoration: none;
+}
