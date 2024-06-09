@@ -1,4 +1,3 @@
-
 using API_FullTrack.Context;
 
 namespace API_FullTrack
@@ -7,30 +6,24 @@ namespace API_FullTrack
     {
         public static void Main(string[] args)
         {
-
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
             builder.Services.AddControllers();
 
             builder.Services.AddDbContext<DataContext, DataContext>();
             builder.Services.AddScoped<DataContext>();
 
+            // Configure CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder => builder
+                        .WithOrigins("http://localhost:5173")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+            });
 
-            //builder.Services.AddCors(options =>
-            //{
-            //    options.AddDefaultPolicy(
-            //        policy =>
-            //        {
-            //            policy.WithOrigins("http://localhost:5173/",
-            //                                "https://localhost:7202/api");
-            //        });
-            //});
-
-
-
-            builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -45,13 +38,15 @@ namespace API_FullTrack
             }
 
             app.UseHttpsRedirection();
+
+            // Use CORS with the defined policy
+            app.UseCors("AllowSpecificOrigin");
+
             app.UseRouting();
 
-            //app.UseCors();
-            app.UseCors(option => option.AllowAnyOrigin()); 
-            app.UseStaticFiles();
-
             app.UseAuthorization();
+
+            app.UseStaticFiles();
 
             app.MapControllers();
 
